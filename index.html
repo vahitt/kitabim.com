@@ -10,7 +10,6 @@
  	src="https://code.jquery.com/jquery-3.3.1.js"
   	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   	crossorigin="anonymous"></script>
-
 </head>
 	<body>
 
@@ -35,10 +34,10 @@
 					<div class="Navbar__Link Navbar__Link-toggle">
      					<a class="fas fa-book" href="javascript:void(0)" id = "open" class = "open" onclick="openNav()"></a>
     				</div>
-    				<!--<div class="Navbar__Link Navbar__Link-toggle">
+    				<div class="Navbar__Link Navbar__Link-toggle">
      					<a class="fas fa-book-open" href="javascript:void(0)" id ="close" class ="close" onclick="closeNav()"></a>
     				</div>
-					-->
+					
 					
 					<nav class=" Navbar__Items  hover right_nav_one " id="Navbar__Items">						
 						<div class="Navbar__Link normal">
@@ -66,22 +65,9 @@
 					</nav>
 				</div>	
 		</div>	
-	
-		<script type="text/javascript">
-			function openNav() {
-				var x = document.getElementById('open').style.display = "none";
 
-				document.getElementById('Navbar__Items').style.display = "flex"; 				
-				document.getElementById('Navbar__Items_login').style.display = "flex";
-			}
-			//function closeNav() {
-				
-			//	document.getElementById('Navbar__Items').style.display = "none"; 				
-			//	document.getElementById('Navbar__Items_login').style.display = "none";				
-			//}
-
-		</script>
-		<!--	
+		<script type="text/javascript" src="responsive.js"></script>
+				<!--	
 			<div class="header-background">
 				<div class="container">		
 						<div class="row" style="margin-bottom: 25px;">
