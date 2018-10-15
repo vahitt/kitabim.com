@@ -2,12 +2,10 @@ document.getElementById('close').style.display = "none";
 function checkSize(size){
 	if(size.matches){
 		document.getElementById('Navbar__Items').style.display = "flex"; 				
-		document.getElementById('Navbar__Items_login').style.display = "flex";
 		
 	}
 	else{
-		document.getElementById('Navbar__Items').style.display = "flex"; 				
-		document.getElementById('Navbar__Items_login').style.display = "flex";		
+		document.getElementById('Navbar__Items').style.display = "flex"; 					
 		document.getElementById('close').style.display = "flex";
 		document.getElementById('open').style.display = "none";
 	}
@@ -17,7 +15,6 @@ function openNav() {
 
 	if(x == "none"){
 		document.getElementById('Navbar__Items').style.display = "flex"; 				
-		document.getElementById('Navbar__Items_login').style.display = "flex";
 		 document.getElementById('close').style.display = "flex"
 	}
 }
@@ -25,7 +22,6 @@ function closeNav() {
 	var y = document.getElementById('close').style.display;
 	if(y == "flex"){
 		document.getElementById('Navbar__Items').style.display = "none"; 				
-		document.getElementById('Navbar__Items_login').style.display = "none";
 		document.getElementById('close').style.display = "none";
 		document.getElementById('open').style.display = "flex";
 	}

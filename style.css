@@ -12,14 +12,20 @@
   background-image: url("images/header_background.png");
   left: 0px;
   width: 100%;
-  height: 120px;
-  padding-top: 15px;
+  height: 121px;
+  padding-top: 16px;
   position: absolute;
 }
-.content-top-background{
-  background:url("images/content-top_background.png") left top no-repeat,url("images/content_background.png")  bottom repeat-x;
+.content-background{
+  background:url("images/content_background.png")   left repeat-x;
   width: 100%;
-  height: 948px;
+  height: 700px;
+  display: block;
+}
+.content-top-background{
+  background: url("images/content-top_background.png") left no-repeat;
+  width: 100%;
+  height: 571px;
   display: block;
 }
 
@@ -30,7 +36,9 @@
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.36);
 
 }
-
+#position{
+  margin-left: 90px;
+}
 .seperate{
   background-image: url("images/seperate.png");
   background-position:1% ;
@@ -56,15 +64,7 @@
 }
 
 
-.nohover  a{
-  color: #f2f2f2;
-  text-align: center;
-  padding:20px 25px 25px 25px;
-  margin-left:5px;
-  font-size: 15px;
-  font-family: "Trebuchet MS";
-  text-decoration:none;
-}
+
 #row_margin{
   margin-top: 25px;
 }
@@ -83,6 +83,46 @@ form.example input[type=text] {
     padding: 0 8px 0 10px;
 
 }
+h2{
+  color:#F2F3F4;
+  font-family: "Trebuchet MS";
+}
+h6{
+  color:#F2F3F4;
+  font-family: "Trebuchet MS";
+}
+.Check__Size h2{
+  margin-top: 30px;
+}
+.Check__Size img{
+  margin-top: 10px;
+}
+.Check__Size h5{
+  font-family: "Trebuchet MS";
+  color:#F2F3F4;
+  margin-left: 20px;
+}
+.Check_Size h5{
+  font-family: "Trebuchet MS";
+  margin-top: 20px;
+  color:black;
+}
+.details_background a:hover{
+  background-image: url("images/details_background.png") ;
+  color: rgb(94, 94, 94);
+  line-height: 0.003;
+  text-align: left;
+  text-decoration:none;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.36);
+}
+.details_background a{
+  color: #f2f2f2;
+  padding:10px 10px 10px 10px;
+  font-size: 15px;
+  margin-left: 100px;
+  font-family: "Trebuchet MS";
+  text-decoration:none;
+}
 
 form.example button {
     float: right;
@@ -96,9 +136,10 @@ form.example button {
 }
 .Navbar {
   display: flex;
-  padding: 16px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 25px;
   font-family: "Trebuchet MS"
-
 }
 .Navbar__Link {
   padding-top: 10px;
@@ -122,14 +163,25 @@ form.example button {
 .header-search{
   display: none;
 }
+
+#position{
+  margin-left: 0px;
+}
 .change_position{
   margin-left: 130px;
 }
-
+.content-background{
+  display: none;
+}
+.content-top-background{
+  display: none;
+}
 .Navbar__Items {
     display:none;
     margin-top: 25px;
     background-image: url("images/content_background.png");
+    width: 50%;
+    margin-left: 50%;
   }
 .Navbar__Items--right {
     margin-left:0;
@@ -141,6 +193,8 @@ form.example button {
 .close{
   display: none;
 }
+
+
 a{
   background-image: none; 
   color: #BEBEBE;
