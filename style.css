@@ -58,7 +58,6 @@
   color: #f2f2f2;
   padding:20px 25px 25px 25px;
   font-size: 15px;
-  margin-right:50px;
   font-family: "Trebuchet MS";
   text-decoration:none;
 }
@@ -139,6 +138,7 @@ form.example button {
   padding-top: 15px;
   padding-bottom: 5px;
   padding-left: 25px;
+  padding-right: 75px;
   font-family: "Trebuchet MS"
 }
 .Navbar__Link {
@@ -147,7 +147,12 @@ form.example button {
 
 .Navbar__Items {
   display: flex;
-  margin-left: 95px;
+}
+.Navbar__Items--left {
+  margin-left: 50px;
+}
+.Navbar__Link--left {
+  margin-right: 15px;
 }
 .Navbar__Items--right {
   margin-left:auto;
@@ -176,15 +181,15 @@ form.example button {
 .content-top-background{
   display: none;
 }
-.Navbar__Items {
+.Navbar__Items  {
     display:none;
-    margin-top: 25px;
     background-image: url("images/content_background.png");
     width: 50%;
+    margin-top: 3px;
     margin-left: 50%;
   }
 .Navbar__Items--right {
-    margin-left:0;
+    margin-left:auto;
   }
 .open{
   display: all;
