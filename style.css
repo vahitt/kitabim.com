@@ -228,7 +228,9 @@ form.example button {
 .header-search{
   display: none;
 }
-
+footer{
+  display: none;
+}
 #position{
   margin-left: 0px;
 }
