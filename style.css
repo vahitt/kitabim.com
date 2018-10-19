@@ -31,6 +31,8 @@
 }
 footer a {
   font-size: 12px;
+  font-family: "Trebuchet MS";
+  color: #00CC00
 }
 .Content-mid_Background{
  background: url("images/content-mid_background.png") center no-repeat;
